@@ -4,11 +4,11 @@
 }
 
 body {
-    margin: 0;
+	margin: 0;
 	font-family: CalorieSuit, sans-serif;
 	background-color: #232323;
 	margin-bottom: 1vh;
-    color: black;
+	color: black;
 }
 
 .fondo {
@@ -40,9 +40,9 @@ h2 {
 }
 
 .boton {
-    width: 15vw;
+    	width: 15vw;
 	min-width: 20vh;
-    background-color: grey;
+	background-color: grey;
 	font-size: 1rem;
 }
 .boton:hover {
@@ -50,7 +50,7 @@ h2 {
 }
 
 #reiniciar{
-    display: none;
+    	display: none;
 }
 
 .contain {
@@ -77,11 +77,11 @@ select:hover {
 }
 
 img {
-    width: 100%;
-    height: auto;
-    max-width: 6.5rem;
-    margin-top: 0.5rem;
-    margin-left: 0;
+    	width: 100%;
+    	height: auto;
+    	max-width: 6.5rem;
+    	margin-top: 0.5rem;
+    	margin-left: 0;
 }
 
 /* Media query para ajustar el tamaño máximo en pantallas más grandes */
@@ -95,7 +95,7 @@ img {
 .road {			/* Carril */
     /*background: #111111 url("images/carril3.png") no-repeat;*/
 	background-color: #232323;;
-    background-size: contain;
+    	background-size: contain;
 	border-bottom: 0.3vw dashed #ffd560;
 }
 
@@ -107,16 +107,16 @@ img {
 }
 
 .close-x {
-    font-size: 3rem;
-    cursor: pointer;
-    color: #FFE960;
+    	font-size: 3rem;
+    	cursor: pointer;
+    	color: #FFE960;
 	margin: 0;
 }
 
 .table-positions {
-    position: absolute; 				/* Centrado absoluto */
-    top: 50%; 							/* Alinea la parte superior al medio */
-    left: 50%; 							/* Alinea al medio */
+    position: absolute; 		/* Centrado absoluto */
+    top: 50%; 				/* Alinea la parte superior al medio */
+    left: 50%; 				/* Alinea al medio */
     transform: translate(-50%, -50%); 	/* Centra el elemento en ambas direcciones */
     width: 40vw;
     background: linear-gradient(to bottom right, #303030fc, #666666fc);
