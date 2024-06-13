@@ -1,0 +1,133 @@
+@font-face {
+	font-family: 'CalorieSuit';
+	src: url("../fonts/CalorieSuitDemo.woff2") format(woff2);
+}
+
+body {
+    margin: 0;
+	font-family: CalorieSuit, sans-serif;
+	background-color: #232323;
+	margin-bottom: 1vh;
+}
+
+.fondo {
+    background-image: url("../images/fondo.jpg");
+    background-repeat: round;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #FFE960;
+    text-shadow: 0 0.375rem rgb(219, 141, 23), 0.0625rem 0.375rem black;
+    margin: 0.5rem 0; /* Espaciado superior e inferior */
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: rgb(233, 233, 233);
+    text-shadow: 0.0625rem 0.125rem black;
+    background-color: rgb(227, 35, 35);
+    border-radius: 0.3125rem;
+    padding: 0.1875rem;
+    margin: 0; /* Elimina margen para un mejor centrado */
+}
+
+.boton {
+    width: 15vw;
+	min-width: 20vh;
+    background-color: grey;
+	font-size: 1rem;
+}
+.boton:hover {
+	background-color: rgb(219, 141, 23);
+}
+
+#reiniciar{
+    display: none;
+}
+
+.contain {
+	background-color: #232323;;
+	padding-top: 0.3vw;
+	border-bottom: 3px solid #888888;
+}
+
+.contain, .boton, select {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: CalorieSuit, sans-serif;
+	margin-bottom: 3px;
+}
+
+select {
+	background-color: rgb(253, 190, 96);
+	font-size: 1rem;
+	margin-right: 5px;
+}
+select:hover {
+	background-color: rgb(232, 179, 99);
+}
+
+img {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor padre */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 6.5rem; /* Limita el tamaño máximo para evitar que la imagen sea demasiado grande */
+    margin-top: 0.5rem; /* Ajusta el margen superior */
+    margin-left: 0; /* Ajusta el margen izquierdo */
+}
+
+/* Media query para ajustar el tamaño máximo en pantallas más grandes */
+@media (min-width: 768px) {
+    img {
+        max-width: 8rem; /* Aumenta el tamaño máximo en pantallas más grandes */
+    }
+}
+
+
+.road {			/* Carril */
+    /*background: #111111 url("images/carril3.png") no-repeat;*/
+	background-color: #232323;;
+    background-size: contain;
+	border-bottom: 0.3vw dashed #ffd560;
+}
+
+.individual {	/* Posición individual */
+	/* margin-left: 0.8rem; */
+	color: rgb(255, 162, 0);
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.close-x {
+    font-size: 3rem;
+    cursor: pointer;
+    color: #FFE960;
+	margin: 0;
+}
+
+.table-positions {
+    position: absolute; 				/* Centrado absoluto */
+    top: 50%; 							/* Alinea la parte superior al medio */
+    left: 50%; 							/* Alinea al medio */
+    transform: translate(-50%, -50%); 	/* Centra el elemento en ambas direcciones */
+    width: 40vw;
+    background: linear-gradient(to bottom right, #303030fc, #666666fc);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 162, 0);
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid rgb(255, 162, 0);
+}
+
+p {
+	margin-top: 5px;
+}
