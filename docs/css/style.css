@@ -1,14 +1,14 @@
 @font-face {
-	font-family: 'CalorieSuit';
-	src: url("../fonts/CalorieSuitDemo.woff2") format(woff2);
+    font-family: 'CalorieSuit';
+    src: url("../fonts/CalorieSuitDemo.woff2") format(woff2);
 }
 
 body {
-	margin: 0;
-	font-family: CalorieSuit, sans-serif;
-	background-color: #232323;
-	margin-bottom: 1vh;
-	color: black;
+    margin: 0;
+    font-family: CalorieSuit, sans-serif;
+    background-color: #232323;
+    margin-bottom: 1vh;
+    color: black;
 }
 
 .fondo {
@@ -40,48 +40,49 @@ h2 {
 }
 
 .boton {
-    	width: 15vw;
-	min-width: 20vh;
-	background-color: grey;
-	font-size: 1rem;
+    width: 15vw;
+    min-width: 20vh;
+    background-color: grey;
+    color: black;
+    font-size: 1rem;
 }
 .boton:hover {
-	background-color: rgb(219, 141, 23);
+    background-color: rgb(219, 141, 23);
 }
 
 #reiniciar{
-    	display: none;
+    display: none;
 }
 
 .contain {
-	background-color: #232323;;
-	padding-top: 0.3vw;
-	border-bottom: 3px solid #888888;
+    background-color: #232323;;
+    padding-top: 0.3vw;
+    border-bottom: 3px solid #888888;
 }
 
 .contain, .boton, select {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: CalorieSuit, sans-serif;
-	margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: CalorieSuit, sans-serif;
+    margin-bottom: 3px;
 }
 
 select {
-	background-color: rgb(253, 190, 96);
-	font-size: 1rem;
-	margin-right: 5px;
+    background-color: rgb(253, 190, 96);
+    font-size: 1rem;
+    margin-right: 5px;
 }
 select:hover {
-	background-color: rgb(232, 179, 99);
+    background-color: rgb(232, 179, 99);
 }
 
 img {
-    	width: 100%;
-    	height: auto;
-    	max-width: 6.5rem;
-    	margin-top: 0.5rem;
-    	margin-left: 0;
+    width: 100%;
+    height: auto;
+    max-width: 6.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0;
 }
 
 /* Media query para ajustar el tamaño máximo en pantallas más grandes */
@@ -94,23 +95,23 @@ img {
 
 .road {			/* Carril */
     /*background: #111111 url("images/carril3.png") no-repeat;*/
-	background-color: #232323;;
-    	background-size: contain;
-	border-bottom: 0.3vw dashed #ffd560;
+    background-color: #232323;;
+    background-size: contain;
+    border-bottom: 0.3vw dashed #ffd560;
 }
 
 .individual {	/* Posición individual */
-	color: rgb(255, 162, 0);
-	font-size: 1.5rem;
-	display: flex;
-	justify-content: flex-end;
+    color: rgb(255, 162, 0);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .close-x {
-    	font-size: 3rem;
-    	cursor: pointer;
-    	color: #FFE960;
-	margin: 0;
+    font-size: 3rem;
+    cursor: pointer;
+    color: #FFE960;
+    margin: 0;
 }
 
 .table-positions {
@@ -126,10 +127,36 @@ img {
     text-align: center;
     font-size: 1.2rem;
     border: 1px solid rgb(255, 162, 0);
-    min-width: 80%;
     padding: 1vw;
 }
 
 p {
-	margin-top: 5px;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .fondo {
+        height: 30vh;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .boton {
+        width: 70%;
+        min-width: unset; /* Elimina el ancho mínimo */
+    }
+    
+    .contain {
+        padding: 5px; /* Espaciado interno reducido */
+    }
+    
+    .table-positions {
+        width: 90%;
+        min-width: unset;
+        max-width: 90%;
+        transform: translate(-50%, -50%);
+        top: 40%;
+    }
 }
