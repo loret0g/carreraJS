@@ -8,6 +8,7 @@ body {
 	font-family: CalorieSuit, sans-serif;
 	background-color: #232323;
 	margin-bottom: 1vh;
+    color: black;
 }
 
 .fondo {
@@ -76,17 +77,17 @@ select:hover {
 }
 
 img {
-    width: 100%; /* Ajusta el ancho al 100% del contenedor padre */
-    height: auto; /* Mantiene la proporción de la imagen */
-    max-width: 6.5rem; /* Limita el tamaño máximo para evitar que la imagen sea demasiado grande */
-    margin-top: 0.5rem; /* Ajusta el margen superior */
-    margin-left: 0; /* Ajusta el margen izquierdo */
+    width: 100%;
+    height: auto;
+    max-width: 6.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0;
 }
 
 /* Media query para ajustar el tamaño máximo en pantallas más grandes */
 @media (min-width: 768px) {
     img {
-        max-width: 8rem; /* Aumenta el tamaño máximo en pantallas más grandes */
+        max-width: 8rem;
     }
 }
 
@@ -99,7 +100,6 @@ img {
 }
 
 .individual {	/* Posición individual */
-	/* margin-left: 0.8rem; */
 	color: rgb(255, 162, 0);
 	font-size: 1.5rem;
 	display: flex;
@@ -126,6 +126,8 @@ img {
     text-align: center;
     font-size: 1.2rem;
     border: 1px solid rgb(255, 162, 0);
+    min-width: 80%;
+    padding: 1vw;
 }
 
 p {
