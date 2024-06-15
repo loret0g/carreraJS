@@ -6,6 +6,8 @@ Este es un minijuego de carreras en el que los jugadores no pueden intervenir di
 
 ➡️ [¡Pruébalo!](https://loret0g.github.io/piedraPapelTijera/)
 
+&nbsp;
+
 ## Cómo jugar
 
 1. **Seleccionar el Número de Vehículos:**
@@ -19,6 +21,8 @@ Este es un minijuego de carreras en el que los jugadores no pueden intervenir di
 
 4. **Reiniciar la Carrera:**
    - Haz clic en el botón "Reiniciar" para comenzar una nueva carrera. La página se recargará para restablecer el juego.
+  
+&nbsp;
 
 ## Visualización
 ![Pantalla inicial](https://github.com/loret0g/carreraJS/blob/main/docs/images/Inicio%20carrera.jpg?raw=true)
