@@ -32,3 +32,7 @@ Este es un minijuego de carreras en el que los jugadores no pueden intervenir di
 
 ![Pantalla final](https://github.com/loret0g/carreraJS/blob/main/docs/images/Final%20carrera.jpg?raw=true)
 *Pantalla final*
+
+##
+
+Desarrollado por [Loreto](https://github.com/loret0g).
