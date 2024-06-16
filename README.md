@@ -12,16 +12,16 @@ Este es un minijuego de carreras en el que los jugadores no pueden intervenir di
 
 ## Cómo jugar
 
-1. **Seleccionar el Número de Vehículos:**
+1. **Seleccionar el número de vehículos:**
    - Usa el menú desplegable para seleccionar el número de vehículos que participarán en la carrera.
 
-2. **Iniciar la Carrera:**
+2. **Iniciar la carrera:**
    - Haz clic en el botón "Iniciar" para comenzar la carrera. Los vehículos se moverán automáticamente hacia la línea de meta.
 
-3. **Ver Clasificaciones:**
+3. **Ver clasificaciones:**
    - Una vez que todos los vehículos hayan cruzado la línea de meta, se mostrará una tabla con las posiciones de llegada de cada vehículo.
 
-4. **Reiniciar la Carrera:**
+4. **Reiniciar la carrera:**
    - Haz clic en el botón "Reiniciar" para comenzar una nueva carrera. La página se recargará para restablecer el juego.
   
 &nbsp;
